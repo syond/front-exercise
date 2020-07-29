@@ -9,8 +9,8 @@ import Footer from '../Footer';
 const Layout: React.FC = () => {
   return (
       <Container>
-          <Wrapper>
-            <NavbarMenu />
+          <NavbarMenu />
+          <Wrapper> 
             <Main />
             <Footer />
           </Wrapper>
