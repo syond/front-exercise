@@ -31,8 +31,9 @@ export default createGlobalStyle`
         --primary: #ffffff; /**background color */
         --secondary: #F5F5F5;
         --outline: #F3F3F3;
-        --link: #961EC5;
-        --link-hover: #E7B6FF
+        --nubank: #961EC5;
+        --link-hover-light: #E7B6FF;
+        --link-hover: #a41ec5;
         --text: #111111;
         --white: #D9D9D9;
         --gray: #7A7A7A;
