@@ -32,7 +32,7 @@ export default createGlobalStyle`
         --secondary: #F5F5F5;
         --outline: #F3F3F3;
         --nubank: #961EC5;
-        --link-hover-light: #E7B6FF;
+        --link-hover-light: #df9eff;
         --link-hover: #a41ec5;
         --text: #111111;
         --white: #D9D9D9;

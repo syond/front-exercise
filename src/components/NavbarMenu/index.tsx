@@ -1,9 +1,10 @@
 import React from "react";
 
-//import Button from '../Button';
+import Button from "../Button";
 
-import { 
+import {
   Container,
+  LeftMenu,
   Logo,
   MenuButton,
   RightMenu,
@@ -14,50 +15,32 @@ import {
 const NavbarMenu: React.FC = () => {
   return (
     <Container>
-      <Logo />
+      <LeftMenu>
+        <Logo />
+        <MenuButton>Início</MenuButton>
 
-      <MenuButton>
-        <span>Início</span>
-      </MenuButton>
+        <MenuButton>Conta digital</MenuButton>
 
-      <MenuButton>
-        <span>Conta digital</span>
-      </MenuButton>
+        <MenuButton>Cartão de crédito</MenuButton>
 
-      <MenuButton>
-        <span>Cartão de crédito</span>
-      </MenuButton>
+        <MenuButton>Rewards</MenuButton>
 
-      <MenuButton>
-        <span>Rewards</span>
-      </MenuButton>
+        <MenuButton>Empréstimo</MenuButton>
 
-      <MenuButton>
-        <span>Empréstimo</span>
-      </MenuButton>
+        <MenuButton>Conta PJ</MenuButton>
 
-      <MenuButton>
-        <span>Conta PJ</span>
-      </MenuButton>
+        <MenuButton>Sobre nós</MenuButton>
 
-      <MenuButton>
-        <span>Sobre nós</span>
-      </MenuButton>
-
-      <MenuButton>
-        <span>Carreiras</span>
-      </MenuButton>
+        <MenuButton>Carreiras</MenuButton>
+      </LeftMenu>
 
       <RightMenu>
         <MenuButtonLogin>
-          <span>Login</span>
+          Login
+          <LoginIcon />
         </MenuButtonLogin>
 
-        <LoginIcon />
-
-        {/* <Button>*/}
-          <span>Quero ser Nubank</span>
-        {/* </Button> */}
+        <Button>Quero ser Nubank</Button>
       </RightMenu>
     </Container>
   );
