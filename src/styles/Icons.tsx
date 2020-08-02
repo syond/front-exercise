@@ -1,1 +1,1 @@
-export { Login } from "styled-icons/material";
+export { Login, CallMade, ArrowForward } from "styled-icons/material";

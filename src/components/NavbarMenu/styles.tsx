@@ -12,7 +12,6 @@ export const Container = styled.div`
 
   border-bottom: 1px solid;
   border-color: var(--white);
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 `;
 
 export const LeftMenu = styled.div`
