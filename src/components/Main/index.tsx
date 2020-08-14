@@ -111,18 +111,6 @@ const Main: React.FC = () => {
           </LeftContentChallange>
         </SectionContent>
       </SectionNuBlog>
-
-      <Section backgroundColor="var(--text)">
-        <p>Nubank</p>
-
-        <a href="/">Sobre nós</a>
-        <a href="/">Carreiras</a>
-        <a href="/">Perguntas frequentes</a>
-        <a href="/">Contato</a>
-        <a href="/">Imprensa</a>
-
-        <a href="/">Segura e sem complicações</a>
-      </Section>
     </Container>
   );
 };
