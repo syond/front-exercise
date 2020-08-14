@@ -4,7 +4,7 @@ import { Container, Wrapper } from './styles';
 
 import NavbarMenu from '../NavbarMenu';
 import Main from '../Main';
-import Footer from '../Footer';
+// import Footer from '../Footer';
 
 const Layout: React.FC = () => {
   return (
