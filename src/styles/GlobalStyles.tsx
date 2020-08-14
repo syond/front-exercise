@@ -6,6 +6,7 @@ export default createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
 
+        -webkit-font-smoothing: antialiased;
         color: var(--text);
     }
 
@@ -30,6 +31,7 @@ export default createGlobalStyle`
     :root{
         --primary: #ffffff; /**background color */
         --secondary: #F5F5F5;
+        --bg-content: #530082;
         --outline: #F3F3F3;
         --nubank: #961EC5;
         --link-hover-light: #df9eff;
